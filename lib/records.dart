@@ -3,7 +3,7 @@ records() {
   // print(person); // ("Tom", 38)
 
   // (String, int) person = ('ABC', 2);
-  // print(person.$1);
+  // print(person.$2);
 
   // var person = (name:"Tom", age:38);
   // print(person.name);   // Tom

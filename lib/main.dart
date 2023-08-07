@@ -3,6 +3,7 @@ import 'package:dart_tasks/list.dart';
 import 'package:dart_tasks/map.dart';
 import 'package:dart_tasks/records.dart';
 import 'package:dart_tasks/set.dart';
+import 'package:dart_tasks/throw.dart';
 
 void main() {
   list();
@@ -10,4 +11,5 @@ void main() {
   map();
   iterable();
   records();
+  functionThrow();
 }
