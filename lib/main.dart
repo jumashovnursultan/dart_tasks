@@ -1,3 +1,4 @@
+import 'package:dart_tasks/future.dart';
 import 'package:dart_tasks/iterable.dart';
 import 'package:dart_tasks/list.dart';
 import 'package:dart_tasks/map.dart';
@@ -12,4 +13,5 @@ void main() {
   iterable();
   records();
   functionThrow();
+  future();
 }
