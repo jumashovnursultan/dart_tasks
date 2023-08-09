@@ -1,3 +1,4 @@
+import 'package:dart_tasks/directory.dart';
 import 'package:dart_tasks/future.dart';
 import 'package:dart_tasks/isolate.dart';
 import 'package:dart_tasks/iterable.dart';
@@ -18,4 +19,5 @@ void main() {
   future();
   functionTry();
   isolate();
+  directory();
 }
