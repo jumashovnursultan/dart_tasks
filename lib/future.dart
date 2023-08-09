@@ -25,18 +25,18 @@ future() {
   // print("Ждем получения значения из Future");
 
   //////
-  Future<String> future = Future.delayed(Duration(seconds: 1), () {
-    print("Выполняется Future");
-    return "Hello Dart";
-  });
+  // Future<String> future = Future.delayed(Duration(seconds: 1), () {
+  //   print("Выполняется Future");
+  //   return "Hello Dart";
+  // });
 
-  future.then((value) {
-    print("Из Future получено значение: $value");
-  }).catchError((err) {
-    print("Ошибка: $err");
-  }).whenComplete(() {
-    print("Future завершил свою работу");
-  });
+  // future.then((value) {
+  //   print("Из Future получено значение: $value");
+  // }).catchError((err) {
+  //   print("Ошибка: $err");
+  // }).whenComplete(() {
+  //   print("Future завершил свою работу");
+  // });
 
-  print("Ждем получения значения из Future");
+  // print("Ждем получения значения из Future");
 }

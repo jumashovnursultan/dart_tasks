@@ -1,10 +1,12 @@
 import 'package:dart_tasks/future.dart';
+import 'package:dart_tasks/isolate.dart';
 import 'package:dart_tasks/iterable.dart';
 import 'package:dart_tasks/list.dart';
 import 'package:dart_tasks/map.dart';
 import 'package:dart_tasks/records.dart';
 import 'package:dart_tasks/set.dart';
 import 'package:dart_tasks/throw.dart';
+import 'package:dart_tasks/try.dart';
 
 void main() {
   list();
@@ -14,4 +16,6 @@ void main() {
   records();
   functionThrow();
   future();
+  functionTry();
+  isolate();
 }
