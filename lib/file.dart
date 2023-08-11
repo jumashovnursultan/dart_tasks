@@ -1,3 +1,4 @@
+import 'dart:convert';
 import 'dart:io';
 
 file() async {
@@ -20,4 +21,12 @@ file() async {
   // print("Accessed datetime: ${stat.accessed}");
   // print("Modified datetime: ${stat.modified}");
   // print("Size: ${stat.size}");
+
+  ////
+  String message = "Hello METANIT.COM";
+  final file = File("content.bin");
+  // конвертируем строку в набор байтов
+  List<int> bytes = utf8.encode(message);
+  await file.writeAsBytes(bytes);
+  print("File has been written");
 }
