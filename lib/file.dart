@@ -23,10 +23,10 @@ file() async {
   // print("Size: ${stat.size}");
 
   ////
-  String message = "Hello METANIT.COM";
-  final file = File("content.bin");
-  // конвертируем строку в набор байтов
-  List<int> bytes = utf8.encode(message);
-  await file.writeAsBytes(bytes);
-  print("File has been written");
+  // String message = "Hello METANIT.COM";
+  // final file = File("content.bin");
+  // // конвертируем строку в набор байтов
+  // List<int> bytes = utf8.encode(message);
+  // await file.writeAsBytes(bytes);
+  // print("File has been written");
 }

@@ -5,6 +5,7 @@ import 'package:dart_tasks/isolate.dart';
 import 'package:dart_tasks/iterable.dart';
 import 'package:dart_tasks/list.dart';
 import 'package:dart_tasks/map.dart';
+import 'package:dart_tasks/pattern_matching.dart';
 import 'package:dart_tasks/records.dart';
 import 'package:dart_tasks/set.dart';
 import 'package:dart_tasks/throw.dart';
@@ -22,4 +23,5 @@ void main() {
   isolate();
   directory();
   file();
+  patternMatching();
 }
