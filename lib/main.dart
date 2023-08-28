@@ -12,16 +12,33 @@ import 'package:dart_tasks/throw.dart';
 import 'package:dart_tasks/try.dart';
 
 void main() {
-  list();
-  set();
-  map();
-  iterable();
-  records();
-  functionThrow();
-  future();
-  functionTry();
-  isolate();
-  directory();
-  file();
-  patternMatching();
+
+
+  int sum = 0;
+
+  for (int i = 1; i < 10; i++) {
+    sum += i;
+  }
+
+  print(sum);
 }
+
+
+
+
+
+
+
+
+// list();
+  // set();
+  // map();
+  // iterable();
+  // records();
+  // functionThrow();
+  // future();
+  // functionTry();
+  // isolate();
+  // directory();
+  // file();
+  // patternMatching();
