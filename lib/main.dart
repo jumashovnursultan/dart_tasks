@@ -12,25 +12,7 @@ import 'package:dart_tasks/throw.dart';
 import 'package:dart_tasks/try.dart';
 
 void main() {
-
-
-  int sum = 0;
-
-  for (int i = 1; i < 10; i++) {
-    sum += i;
-  }
-
-  print(sum);
-}
-
-
-
-
-
-
-
-
-// list();
+  // list();
   // set();
   // map();
   // iterable();
@@ -42,3 +24,12 @@ void main() {
   // directory();
   // file();
   // patternMatching();
+
+  // int sum = 0;
+
+  // for (int i = 1; i < 10; i++) {
+  //   sum += i;
+  // }
+
+  // print(sum);
+}
