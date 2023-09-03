@@ -1,5 +1,6 @@
 import 'package:dart_tasks/directory.dart';
 import 'package:dart_tasks/file.dart';
+import 'package:dart_tasks/for_tasks.dart';
 import 'package:dart_tasks/future.dart';
 import 'package:dart_tasks/isolate.dart';
 import 'package:dart_tasks/iterable.dart';
@@ -12,24 +13,17 @@ import 'package:dart_tasks/throw.dart';
 import 'package:dart_tasks/try.dart';
 
 void main() {
-  // list();
-  // set();
-  // map();
-  // iterable();
-  // records();
-  // functionThrow();
-  // future();
-  // functionTry();
-  // isolate();
-  // directory();
-  // file();
-  // patternMatching();
-
-  // int sum = 0;
-
-  // for (int i = 1; i < 10; i++) {
-  //   sum += i;
-  // }
-
-  // print(sum);
+  list();
+  set();
+  map();
+  iterable();
+  records();
+  functionThrow();
+  future();
+  functionTry();
+  isolate();
+  directory();
+  file();
+  patternMatching();
+  forTasks();
 }
