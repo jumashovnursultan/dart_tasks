@@ -22,13 +22,13 @@ void isolate() async {
 //   print("Some work...");
 }
 
-void count(SendPort sendPort) {
-  var result = 0;
-  for (var i = 1; i <= 10000000000; i++) {
-    result = i;
-  }
-  sendPort.send(result);
-}
+// void count(SendPort sendPort) {
+//   var result = 0;
+//   for (var i = 1; i <= 10000000000; i++) {
+//     result = i;
+//   }
+//   sendPort.send(result);
+// }
 
 ///////
 // Future<int> count() async {
