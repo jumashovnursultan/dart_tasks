@@ -14,20 +14,24 @@ forTasks() {
   // }
   // print(sum + s);
 
-  var sum = 0;
+  String numbers = '1 20 10 88 432432432 9332432432';
+  List<String> numberList = numbers.split(' ');
 
-  int n = 9223372036854775807;
-  int k = 2;
+  String theLongestNumber = '';
 
-  var first = '1,1,1,1';
-  var second = '2,2';
-  var third = '2,1,1';
-  var fourth = '1,1,2';
-  var fifth = '1,2,1';
+  for (int i = 0; i < numberList.length; i++) {
+    if (theLongestNumber.length < numberList[i].length) {
+      theLongestNumber = numberList[i];
+    } else if (theLongestNumber.length == numberList[i].length) {
+      for (int i2 = 0; i2 < theLongestNumber.length; i2++) {
+        int fitstIntLongNum = int.parse(theLongestNumber[i2]);
+        int secondIntLongNum = int.parse(numberList[i][i2]);
+        if (fitstIntLongNum < secondIntLongNum) {
+          theLongestNumber = numberList[i];
+        }
+      }
+    }
+  }
 
-  // for (int i = 0; i < 11; i++) {
-  //   print('object: $i');
-  // }
-
-  // for ()
+  print(theLongestNumber);
 }
