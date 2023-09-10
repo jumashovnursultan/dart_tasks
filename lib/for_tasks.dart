@@ -13,25 +13,34 @@ forTasks() {
   //   sum += s * 0.03;
   // }
   // print(sum + s);
+  //
 
-  String numbers = '1 20 10 88 432432432 9332432432';
-  List<String> numberList = numbers.split(' ');
+  // String numbers = '1 20 10 88 432432432 9332432432';
+  // List<String> numberList = numbers.split(' ');
 
-  String theLongestNumber = '';
+  // String theLongestNumber = '';
 
-  for (int i = 0; i < numberList.length; i++) {
-    if (theLongestNumber.length < numberList[i].length) {
-      theLongestNumber = numberList[i];
-    } else if (theLongestNumber.length == numberList[i].length) {
-      for (int i2 = 0; i2 < theLongestNumber.length; i2++) {
-        int fitstIntLongNum = int.parse(theLongestNumber[i2]);
-        int secondIntLongNum = int.parse(numberList[i][i2]);
-        if (fitstIntLongNum < secondIntLongNum) {
-          theLongestNumber = numberList[i];
-        }
-      }
-    }
-  }
+  // for (int i = 0; i < numberList.length; i++) {
+  //   if (theLongestNumber.length < numberList[i].length) {
+  //     theLongestNumber = numberList[i];
+  //   } else if (theLongestNumber.length == numberList[i].length) {
+  //     for (int i2 = 0; i2 < theLongestNumber.length; i2++) {
+  //       int fitstIntLongNum = int.parse(theLongestNumber[i2]);
+  //       int secondIntLongNum = int.parse(numberList[i][i2]);
+  //       if (fitstIntLongNum < secondIntLongNum) {
+  //         theLongestNumber = numberList[i];
+  //       }
+  //     }
+  //   }
+  // }
+  // print(theLongestNumber);
+  //
 
-  print(theLongestNumber);
+  // int sum = 1;
+  // for (int i = 1; i <= 21; i++) {
+  //   sum *= i;
+  //   4324327489324 * 21;
+  // }
+  // print(sum);
+  //
 }
