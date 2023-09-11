@@ -42,4 +42,11 @@ forTasks() {
   //   4324327489324 * 21;
   // }
   // print(sum);
+  //
+
+  List<int> numbers = [];
+
+  int num = 5;
+
+  for (int i = 0; i < 11; i++) {}
 }
