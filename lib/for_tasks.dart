@@ -48,5 +48,8 @@ forTasks() {
 
   int num = 5;
 
-  for (int i = 0; i < 11; i++) {}
+  for (int i = 0; i < 11; i++) {
+    numbers.add(num);
+    num += 2;
+  }
 }
