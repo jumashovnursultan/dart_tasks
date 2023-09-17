@@ -13,17 +13,17 @@ import 'package:dart_tasks/throw.dart';
 import 'package:dart_tasks/try.dart';
 
 void main() {
-  // list();
-  // set();
-  // map();
-  // iterable();
-  // records();
-  // functionThrow();
-  // future();
-  // functionTry();
-  // isolate();
-  // directory();
-  // file();
-  // patternMatching();
+  list();
+  set();
+  map();
+  iterable();
+  records();
+  functionThrow();
+  future();
+  functionTry();
+  isolate();
+  directory();
+  file();
+  patternMatching();
   forTasks();
 }
