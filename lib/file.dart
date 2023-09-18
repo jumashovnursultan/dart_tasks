@@ -2,9 +2,9 @@ import 'dart:convert';
 import 'dart:io';
 
 file() async {
-  // File file = File("hello.txt");
-  // print(file.path); // hello.txt
-  // print(file.absolute.path); // c:\dart\hello.txt
+  File file = File("hello.txt");
+  print(file.path); // hello.txt
+  print(file.absolute.path); // c:\dart\hello.txt
 
   ////
   // var file = File("work.txt");
