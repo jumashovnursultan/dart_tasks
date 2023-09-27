@@ -1,9 +1,9 @@
 forTasks() {
-  int sum = 0;
-  for (int i = 1; i < 10; i++) {
-    sum += i;
-  }
-  print(sum);
+  // int sum = 0;
+  // for (int i = 1; i < 10; i++) {
+  //   sum += i;
+  // }
+  // print(sum);
 
   // int s = 19999;
   // int n = 5 * 12;
@@ -43,12 +43,29 @@ forTasks() {
   // print(sum);
   //
 
-  List<int> numbers = [];
+  // List<int> numbers = [];
 
-  int num = 5;
+  // int num = 5;
 
-  for (int i = 0; i < 11; i++) {
-    numbers.add(num);
-    num += 2;
+  // for (int i = 0; i < 11; i++) {
+  //   numbers.add(num);
+  //   num += 2;
+  // }
+  //
+
+  List<int> binars = [];
+
+  var num = 12;
+  var allBinar = 0;
+
+  while (num >= 1) {
+    binars.add(num % 2);
+    num ~/= 2;
   }
+  for (int i = 0; i < binars.length; i++) {
+    allBinar += binars[i];
+  }
+
+  print(binars);
+  print(allBinar);
 }
