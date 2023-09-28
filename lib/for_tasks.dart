@@ -65,7 +65,4 @@ forTasks() {
   for (int i = 0; i < binars.length; i++) {
     allBinar += binars[i];
   }
-
-  print(binars);
-  print(allBinar);
 }
