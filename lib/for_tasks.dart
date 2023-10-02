@@ -53,16 +53,16 @@ forTasks() {
   // }
   //
 
-  List<int> binars = [];
+  // List<int> binars = [];
 
-  var num = 12;
-  var allBinar = 0;
+  // var num = 12;
+  // var allBinar = 0;
 
-  while (num >= 1) {
-    binars.add(num % 2);
-    num ~/= 2;
-  }
-  for (int i = 0; i < binars.length; i++) {
-    allBinar += binars[i];
-  }
+  // while (num >= 1) {
+  //   binars.add(num % 2);
+  //   num ~/= 2;
+  // }
+  // for (int i = 0; i < binars.length; i++) {
+  //   allBinar += binars[i];
+  // }
 }

@@ -9,8 +9,11 @@ import 'package:dart_tasks/map.dart';
 import 'package:dart_tasks/pattern_matching.dart';
 import 'package:dart_tasks/records.dart';
 import 'package:dart_tasks/set.dart';
+import 'package:dart_tasks/tasks.dart';
 import 'package:dart_tasks/throw.dart';
 import 'package:dart_tasks/try.dart';
+
+import 'class_tasks.dart';
 
 void main() {
   list();
@@ -26,4 +29,6 @@ void main() {
   file();
   patternMatching();
   forTasks();
+  tasks();
+  classTasks();
 }
