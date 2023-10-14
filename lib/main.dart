@@ -1,3 +1,4 @@
+import 'package:dart_tasks/class_tasks2.dart';
 import 'package:dart_tasks/directory.dart';
 import 'package:dart_tasks/file.dart';
 import 'package:dart_tasks/for_tasks.dart';
@@ -31,4 +32,5 @@ void main() {
   forTasks();
   tasks();
   classTasks();
+  classTasks2();
 }
