@@ -31,4 +31,18 @@ class Document {
   });
 }
 
-classTasks2() {}
+class Shop {
+  String name;
+  String address;
+  List<Product>? products;
+
+  Shop({
+    required this.name,
+    required this.address,
+    this.products,
+  });
+}
+
+classTasks2() {
+  Shop reader = Shop(name: 'ArzanTamak', address: 'Bishkek, Kyrgyzstan');
+}

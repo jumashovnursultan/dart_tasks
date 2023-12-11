@@ -94,10 +94,10 @@ class Reader {
 }
 
 classTasks() {
-  Reader reader = Reader(fullName: 'Tashtan', books: []);
-  // reader.showInfo();
+  // Reader reader = Reader(fullName: 'Tashtan', books: []);
+  // // reader.showInfo();
 
-  reader.takeBookByQuantity(5);
-  reader.returnByQuantityBook(5);
-  reader.showInfo();
+  // reader.takeBookByQuantity(5);
+  // reader.returnByQuantityBook(5);
+  // reader.showInfo();
 }

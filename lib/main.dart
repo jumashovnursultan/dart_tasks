@@ -30,7 +30,7 @@ void main() {
   file();
   patternMatching();
   forTasks();
-  tasks();
   classTasks();
   classTasks2();
+  tasks();
 }
