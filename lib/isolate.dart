@@ -1,5 +1,3 @@
-import 'dart:isolate';
-
 void isolate() async {
   // print("Start calculation");
   // // создаем порт приема сообщений от нового изолята
